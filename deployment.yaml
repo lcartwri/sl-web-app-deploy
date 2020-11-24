@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sl-web-app-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      component: sl-web
+  template:
+    metadata:
+      labels:
+        component: sl-web
+    spec:
+      containers:
+        - name: sl-flask-web-app
+          image: lcartwri/sl-flask-web-app
+          ports:
+            - containerPort: 5000
