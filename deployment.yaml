@@ -16,4 +16,4 @@ spec:
         - name: sl-flask-web-app
           image: lcartwri/sl-flask-web-app
           ports:
-            - containerPort: 80
+            - containerPort: 5000
