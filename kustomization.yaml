@@ -7,4 +7,4 @@ resources:
 images:
 - name: lcartwri/sl-flask-web-app
 - name: lcartwri/web-demo-app
-  newTag: 7ba4fd04d1fa9e01ce6483e6dead070a2a8975d8
+  newTag: 3ea9aad525d6c654aa5ec95460dc339253bb6bae
